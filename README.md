@@ -84,14 +84,14 @@ Model **GradientBoosting** memiliki skor akurasi tertinggi (91%), oleh karena it
 
 Berdasarkan hasil dalam proyek *data science* yang telah dikerjakan, berikut adalah beberapa rekomendasi *action items* yang dapat diikuti oleh Jaya Jaya Institut untuk mencapai target mereka dalam mengurangi angka *dropout*:
 - Implementasi Sistem Deteksi Dini Proaktif:** Segera integrasikan model prediksi *GradientBoosting* yang telah dibangun ke dalam sistem operasional institusi. Hal ini memungkinkan identifikasi dini mahasiswa yang memiliki risiko tinggi untuk *dropout*, sehingga tindakan pencegahan dapat dilakukan sebelum terlambat.
-- Pengembangan Program Bimbingan & Dukungan Terpersonalisasi:** Manfaatkan wawasan dari model dan analisis data untuk merancang program bimbingan akademik dan non-akademik yang disesuaikan. Fokus pada faktor-faktor kunci yang berkontribusi pada *dropout* (misalnya, masalah keuangan, kinerja akademik di semester awal, usia saat pendaftaran) untuk memberikan dukungan yang paling relevan.
-- Pemanfaatan Dashboard untuk Monitoring Berkelanjutan:** Edukasi dan dorong staf terkait (misalnya, dosen wali, penasihat akademik, bagian kemahasiswaan) untuk secara rutin menggunakan *dashboard* yang telah dibuat. *Dashboard* ini akan berfungsi sebagai alat visual untuk memantau performa siswa, mengidentifikasi tren *dropout* secara keseluruhan, dan mengevaluasi efektivitas intervensi yang telah dijalankan.
-- Pengumpulan Data Tambahan untuk Peningkatan Model:** Pertimbangkan untuk memperkaya dataset dengan mengumpulkan data tambahan yang relevan di masa mendatang, seperti:
+- Pengembangan Program Bimbingan & Dukungan Terpersonalisasi: Manfaatkan wawasan dari model dan analisis data untuk merancang program bimbingan akademik dan non-akademik yang disesuaikan. Fokus pada faktor-faktor kunci yang berkontribusi pada *dropout* (misalnya, masalah keuangan, kinerja akademik di semester awal, usia saat pendaftaran) untuk memberikan dukungan yang paling relevan.
+- Pemanfaatan Dashboard untuk Monitoring Berkelanjutan: Edukasi dan dorong staf terkait (misalnya, dosen wali, penasihat akademik, bagian kemahasiswaan) untuk secara rutin menggunakan *dashboard* yang telah dibuat. *Dashboard* ini akan berfungsi sebagai alat visual untuk memantau performa siswa, mengidentifikasi tren *dropout* secara keseluruhan, dan mengevaluasi efektivitas intervensi yang telah dijalankan.
+- Pengumpulan Data Tambahan untuk Peningkatan Model: Pertimbangkan untuk memperkaya dataset dengan mengumpulkan data tambahan yang relevan di masa mendatang, seperti:
     * Riwayat partisipasi mahasiswa dalam kegiatan ekstrakurikuler atau layanan konseling.
     * Survei kepuasan mahasiswa atau tantangan yang mereka hadapi.
     * Data terkait interaksi mahasiswa dengan dosen atau staf.
 Data ini dapat digunakan untuk melatih ulang dan meningkatkan akurasi serta interpretasi model di masa depan.
-- Evaluasi dan Pembaruan Model Secara Berkala:** Tetapkan jadwal rutin (misalnya, setiap semester atau setiap tahun akademik) untuk mengevaluasi kembali kinerja model prediksi. Latih ulang model dengan data terbaru yang mencakup mahasiswa yang telah *dropout* atau lulus untuk memastikan model tetap relevan dan akurat seiring waktu.
+- Evaluasi dan Pembaruan Model Secara Berkala: Tetapkan jadwal rutin (misalnya, setiap semester atau setiap tahun akademik) untuk mengevaluasi kembali kinerja model prediksi. Latih ulang model dengan data terbaru yang mencakup mahasiswa yang telah *dropout* atau lulus untuk memastikan model tetap relevan dan akurat seiring waktu.
 
 Jelaskan konklusi dari proyek yang dikerjakan.
 
