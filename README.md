@@ -42,6 +42,8 @@ python notebook.py
 ## Business Dashboard
 Dashboard analisis institusi pendidikan telah dibuat untuk membantu Jaya Jaya Institut dalam memahami data performa siswa dan memonitor potensi dropout. Dashboard ini dirancang untuk memberikan wawasan visual yang mudah dicerna mengenai beberapa faktor kunci yang terkait dengan status akademik siswa.
 
+![image](https://github.com/user-attachments/assets/ccfff39d-2115-42e2-8173-b5c942651a49)
+
 Fitur Utama Dashboard:
 
 - Distribusi Usia Pendaftaran Mahasiswa berdasarkan Jenis Pendaftaran: Menampilkan sebaran usia mahasiswa saat pendaftaran, dibagi berdasarkan status akademik (Graduate, Dropout, Enrolled). Ini memungkinkan institusi untuk melihat kelompok usia mana yang paling rentan terhadap dropout.
