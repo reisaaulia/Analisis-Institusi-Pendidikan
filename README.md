@@ -55,13 +55,44 @@ Fitur Utama Dashboard:
 Link Akses Dashboard: https://lookerstudio.google.com/reporting/1fc5fb50-a6d4-4538-866c-a452d7c18486
 
 ## Menjalankan Sistem Machine Learning
-Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
 
-```
+Cara Menjalankan Prototype (Secara Lokal)
 
-```
+- Pastikan semua dependensi dari `requirements.txt` sudah terinstal. Jika tidak yakin, jalankan kembali:
+        ```bash
+        pip install -r requirements.txt
+        ```
+
+- Menjalankan Aplikasi Streamlit: Jalankan aplikasi Streamlit dengan perintah:
+        ```bash
+        streamlit run app.py
+        ```
+
+Link untuk Mengakses Prototype (Online): https://reisaaulia-analisis-institusi-pendidikan-app-thyhqu.streamlit.app/
 
 ## Conclusion
+Dari hasil analisis, dapat diperoleh bahwa skor akurasi sebagai berikut:
+- GridSearch: 63%
+- DecisionTreeClassifier: 65%
+- RandomForest: 76%
+- XGBClassifier: 90%
+- GradientBoosting: 91%
+
+Model **GradientBoosting** memiliki skor akurasi tertinggi (91%), oleh karena itu model ini menjadi model terbaik dalam analisis proyek ini. Dengan akurasi yang tinggi, model ini sangat efektif dalam memprediksi potensi *dropout* mahasiswa, yang akan menjadi dasar kuat bagi Jaya Jaya Institut untuk merancang dan menerapkan strategi intervensi yang proaktif.
+
+### Rekomendasi Action Items
+
+Berdasarkan hasil dalam proyek *data science* yang telah dikerjakan, berikut adalah beberapa rekomendasi *action items* yang dapat diikuti oleh Jaya Jaya Institut untuk mencapai target mereka dalam mengurangi angka *dropout*:
+- Implementasi Sistem Deteksi Dini Proaktif:** Segera integrasikan model prediksi *GradientBoosting* yang telah dibangun ke dalam sistem operasional institusi. Hal ini memungkinkan identifikasi dini mahasiswa yang memiliki risiko tinggi untuk *dropout*, sehingga tindakan pencegahan dapat dilakukan sebelum terlambat.
+- Pengembangan Program Bimbingan & Dukungan Terpersonalisasi:** Manfaatkan wawasan dari model dan analisis data untuk merancang program bimbingan akademik dan non-akademik yang disesuaikan. Fokus pada faktor-faktor kunci yang berkontribusi pada *dropout* (misalnya, masalah keuangan, kinerja akademik di semester awal, usia saat pendaftaran) untuk memberikan dukungan yang paling relevan.
+- Pemanfaatan Dashboard untuk Monitoring Berkelanjutan:** Edukasi dan dorong staf terkait (misalnya, dosen wali, penasihat akademik, bagian kemahasiswaan) untuk secara rutin menggunakan *dashboard* yang telah dibuat. *Dashboard* ini akan berfungsi sebagai alat visual untuk memantau performa siswa, mengidentifikasi tren *dropout* secara keseluruhan, dan mengevaluasi efektivitas intervensi yang telah dijalankan.
+- Pengumpulan Data Tambahan untuk Peningkatan Model:** Pertimbangkan untuk memperkaya dataset dengan mengumpulkan data tambahan yang relevan di masa mendatang, seperti:
+    * Riwayat partisipasi mahasiswa dalam kegiatan ekstrakurikuler atau layanan konseling.
+    * Survei kepuasan mahasiswa atau tantangan yang mereka hadapi.
+    * Data terkait interaksi mahasiswa dengan dosen atau staf.
+Data ini dapat digunakan untuk melatih ulang dan meningkatkan akurasi serta interpretasi model di masa depan.
+- Evaluasi dan Pembaruan Model Secara Berkala:** Tetapkan jadwal rutin (misalnya, setiap semester atau setiap tahun akademik) untuk mengevaluasi kembali kinerja model prediksi. Latih ulang model dengan data terbaru yang mencakup mahasiswa yang telah *dropout* atau lulus untuk memastikan model tetap relevan dan akurat seiring waktu.
+
 Jelaskan konklusi dari proyek yang dikerjakan.
 
 ### Rekomendasi Action Items
